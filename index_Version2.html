@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank" class="linkedin-btn">LinkedIn</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+            <img src="assets/images/profile.jpg" alt="Profile Picture" class="profile-pic">
+            <p>Hello! I'm Urvi Gogwekar, a Senior Consultant and Project Manager on a mission to drive operational excellence for organizations
+        </section>
+        <section id="timeline">
+            <h2>Career Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="timeline-date">2019</span>
+                    <div class="timeline-content">Started my career at The Spur Group as a Consultant.</div>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">2021</span>
+                    <div class="timeline-content">Promoted to Senior Consultant at Spur Reply LLC.</div>
+                </div>
+                <!-- Add more timeline items as needed -->
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div id="contactMessage"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Your Name</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
